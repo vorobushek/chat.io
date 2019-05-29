@@ -1,18 +1,19 @@
-#chat.io
+### Chat.io 
 
 чат на стеке технологий:
 express + socket.io + passport.js + mongoDB + отображение EJS 
-натянутый на bootstrap 4.0
-
+с использованием bootstrap 4.0
+<p>
 для запуска необходимо иметь установленный npm + node.js + (mongoDB - если отсутвует онлайн кластер)
+</p>
 
-для первого запуска необходимо выполнить команду 
-$ npm install $$ npm start
+для первого запуска необходимо выполнить команду <br>
+*npm install $$ npm start* <br>
 
-для последующего запуска
-$ npm start
-или запуск через nodemon
-$ npm run dev
+для последующего запуска: <br>
+*npm start*<br>
+или запуск через nodemon: <br>
+*npm run dev*<br>
 
 далее зайти на http://localhost:3000
 
