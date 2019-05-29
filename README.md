@@ -23,5 +23,5 @@ Open "config/keys.js" and add your MongoDB URI, local or Atlas
 
 
 ### TANKS FOR TEMPLATE AND SCRIPTS
-https://github.com/nandai //textarea extend script
+https://github.com/nandai //textarea extend script <br>
 https://github.com/bradtraversy/node_passport_login // example basic application architecture
