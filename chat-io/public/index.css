@@ -1,0 +1,103 @@
+::-webkit-scrollbar {
+    /* chrome based */
+    width: 0px;
+    /* ширина scrollbar'a */
+    background: transparent;
+    /* опционально */
+}
+
+.chatContainer {
+   /* display: flex;
+
+    flex-direction: column;
+    width: 40%;*/
+    /*height: 700px;*/
+    margin-bottom: 0;
+    border-radius: 2px;
+    padding: 0 0 0 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+
+
+
+.noFormText {
+    /*position: relative;*/
+    /*height: 30px;*/
+    align-self: bottom;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    resize: none;
+}
+
+
+
+.chatArea {
+    opacity: 0.95;
+    width: 100%;
+    padding: auto;
+    overflow: auto;
+    scrollbar-width: none;
+    flex: 1;
+    height: 100%;
+    /*background-color: #cce;*/
+}
+
+
+#roomName {
+    font-family: fantasy;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+    color: #444;
+    text-align: center;
+}
+
+#onlineUsers {
+    /*font-family: fantasy;*/
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    color: purple;
+    text-align: center;
+}
+
+
+
+
+
+
+
+#message {
+    flex: 1;
+    background-color: #cce;
+}
+
+#ta-frame {
+    padding: 10px 10px;
+    /*height: 40px;*/
+    
+}
+
+
+.chatArea {
+    opacity: 0.95;
+    width: 100%;
+    padding: auto;
+    overflow: auto;
+    scrollbar-width: none;
+    flex: 1;
+    height: 15%;
+    /*background-color: #cce;*/
+}
+#chat {
+    display: flex;
+    flex-direction: column;
+    height:89%;
+}
+

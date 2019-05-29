@@ -1,0 +1,67 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: #ccc;
+    border: 2px solid;
+    /*scrollbar-width: none;*/
+    /*padding-top: 0px;*/
+}
+
+
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top:0px;
+    right: 10px;
+    font-size: 36px;
+    /*margin-left: 50px;*/
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+
+
+#leaveRoom {
+   position: relative;
+   width: 100%;
+   font-size: 15px;
+   /*margin-top:  100%;*/
+}
+
+#killRoom {
+     width: 100%;
+     margin-bottom: 0px;
+   font-size: 15px;
+}
+.onlineStatContainer
+{
+  /*position: relative;*/
+  height: 100%;
+  width: 100%;
+
+}
+
+
+#buttonContainer
+{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

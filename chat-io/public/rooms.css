@@ -1,0 +1,26 @@
+#sailorTableArea {
+    max-height: 26em;
+}
+
+#sailorTable {
+    white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    /* chrome based */
+    width: 0px;
+    /* ширина scrollbar'a */
+    background: transparent;
+    /* опционально */
+}
+@font-face {
+    font-family: over;
+    src: url(../public/bigNoodle.ttf);
+}
+#logout
+{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
